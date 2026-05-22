@@ -1,0 +1,27 @@
+real contador = 1, preco, preco_alto
+    cadeia produto, produto_caro
+
+    enquanto(contador<=5){
+      escreva("Digite o nome do produto\n")
+      leia(produto)
+
+      escreva("O preço deste produto\n")
+      leia(preco)
+
+    se(contador==1){
+      preco_alto=preco
+      produto_caro=produto
+
+}
+    senao se(preco > preco_alto){
+      preco_alto = preco
+      produto_caro = produto
+}
+
+    contador = contador + 1
+}
+
+    escreva("O produto mais caro é ", produto_caro, "\n")
+    escreva("O valor do produto mais caro é ", preco_alto)
+}
+}
