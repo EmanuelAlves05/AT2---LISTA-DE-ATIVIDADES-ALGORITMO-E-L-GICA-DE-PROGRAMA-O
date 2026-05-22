@@ -1,0 +1,17 @@
+inteiro contador = 1, nota, clientes_satisfeitos = 0, clientes_naosatisfeitos = 0
+
+    enquanto(contador<=6){
+      escreva("De a sua nota de 1 a 5\n")
+      leia(nota)
+    se(nota>=4){
+      clientes_satisfeitos=clientes_satisfeitos + 1
+}
+    senao
+      clientes_naosatisfeitos=clientes_naosatisfeitos + 1
+    
+    contador = contador + 1
+}
+    escreva(clientes_satisfeitos, " deram nota maior ou igual a 4\n")
+    escreva(clientes_naosatisfeitos, " deram nota menor que 4")
+}
+}
