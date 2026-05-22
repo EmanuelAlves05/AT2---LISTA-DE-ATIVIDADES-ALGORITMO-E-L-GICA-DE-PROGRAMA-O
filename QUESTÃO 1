@@ -1,0 +1,16 @@
+inteiro n1, n2, troca
+
+    escreva("Qual o primeiro número?\n")
+    leia(n1)
+    
+    escreva("Qual o segundo número?\n")
+    leia(n2)
+   
+   troca = n1
+   n1 = n2
+   n2 = troca
+   
+    escreva("o primeiro número é ", n1, "\n")
+    escreva("E o segundo número é ", n2, "\n")
+}
+}
