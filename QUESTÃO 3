@@ -1,0 +1,12 @@
+inteiro idade, dias, horas
+
+    escreva("Qual a sua idade?\n")
+    leia(idade)
+
+    dias = idade * 365
+    horas = dias * 24
+
+    escreva("A sua idade em dias é ", dias, "\n")
+    escreva("A sua idade em horas é ", horas)
+}
+}
