@@ -1,0 +1,11 @@
+real atual, novo_salario, reajuste 
+
+    escreva("Qual o salário deste funcionário?\n")
+    leia(atual)
+
+    reajuste = atual*0.10
+    novo_salario = atual+reajuste
+
+    escreva("O novo salário deste funcionário é ", novo_salario)
+}
+}
