@@ -1,0 +1,32 @@
+inteiro n1, n2, n3
+
+    escreva("Qual o primeiro número?\n")
+    leia(n1)
+
+    escreva("Qual o segundo número?\n")
+    leia(n2)
+
+    escreva("Qual o terceiro número?\n")
+    leia(n3)
+
+
+    se(n1>n2 e n2>n3){
+      escreva("A ordem crescente dos números é\n", n3, "\n", n2, "\n", n1)
+}
+    senao se(n2>n1 e n1>n3){
+      escreva("A ordem crescente dos números é\n", n3, "\n", n1, "\n", n2)
+}
+    senao se(n1>n3 e n3>n2){
+      escreva("A ordem crescente dos números é\n", n2, "\n", n3, "\n", n1)
+}
+    senao se(n3>n1 e n1>n2){
+      escreva("A ordem crescente dos números é\n", n2, "\n", n1, "\n", n3)
+}
+    senao se(n2>n3 e n3>n1){
+      escreva("A ordem crescente dos números é\n", n1, "\n", n3, "\n", n2)
+}
+    senao se(n3>n2 e n2>n1){
+      escreva("A ordem crescente dos números é\n", n1, "\n", n2, "\n", n3)
+}
+}
+}
