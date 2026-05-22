@@ -1,0 +1,25 @@
+real nota1, nota2, nota3, soma, media
+    cadeia nome
+
+    escreva("Qual o nome do candidato?\n")
+    leia(nome)
+
+    escreva("Qual foi a nota em Português?\n")
+    leia(nota1)
+
+    escreva("Qual foi a nota em Matemática?\n")
+    leia(nota2)
+
+    escreva("Qual foi a nota em Conhecimentos Gerais?\n")
+    leia(nota3)
+
+    soma = nota1+nota2+nota3
+    media = soma/3
+
+    se(media>=7.0 e nota1>=5.0 e nota2>=5.0 e nota3>=5.0){
+      escreva("O candidato ", nome, " está aprovado")
+}
+    senao 
+    escreva("O candidato ", nome, " está reprovado")
+}
+}
