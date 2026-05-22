@@ -1,0 +1,15 @@
+inteiro a, b, resultado, soma
+
+    escreva("Qual o valor de a\n")
+    leia(a)
+
+    escreva("Qual o valor de b\n")
+    leia(b)
+
+    soma = a + b
+
+    resultado = soma * soma
+
+    escreva(resultado)
+}
+}
