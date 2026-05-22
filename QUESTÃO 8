@@ -1,0 +1,21 @@
+inteiro senha, contador = 1
+
+    escreva("Digite a sua senha\n")
+    leia(senha)
+
+
+    enquanto(contador<=2 e senha != 2025){
+      escreva("Senha incorreta. Digite novamente\n")
+      leia(senha)
+
+    
+    contador = contador + 1
+}
+    se(senha==2025){
+      escreva("Acesso liberado")
+    }
+    senao se(contador>2){
+      escreva("Acesso bloqueado")
+}
+}
+}
